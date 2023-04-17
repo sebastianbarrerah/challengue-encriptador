@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0" />
+    <link rel="stylesheet" href="estilos/responsivo.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/Vector.png" alt="logo" class="logo_principal">
+    </header>
+
+    <section class="texto" data-texto-principal>
+        <label for class="ingrese_texto"></label>
+        <input type="text" class="ingrese_texto" placeholder="Ingrese texto aquí" data-texto value=""
+            style="text-transform: lowercase;">
+    </section>
+
+    <section>
+        <table class="tabla">
+            <td class="cuadrado">
+                <div class="div-cuadrado" data-div-parrafo>
+
+                </div>
+                <div data-div-imagen class="imagen-muñeco">
+                    <img src="imagenes/Muñeco.png" alt="muñeco" class="muñeco">
+                </div>
+                <div>
+                    <button class="copiar" data-copiar>Copiar</button>
+                </div>
+                <div data-div-mensajes class="divMensajes">
+                    <p class="primerMensaje">Ningún mensaje fue encontrado</p>
+                    <p class="segundoMensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </td>
+        </table>
+    </section>
+
+    <section class="botones">
+        <div class="botones_div">
+            <button class="encriptar" data-encriptar>Encriptar</button>
+            <button class="desencriptar" data-desencriptar>Desencriptar</button>
+        </div>
+
+        <div data-botones-mejoras>
+            <button id="reiniciar">Reiniciar</button>
+        </div>
+    </section>
+    <div class="container" data-div-restriccion>
+        <img src="./imagenes/restriccion.png" alt="restricción" class="imagen-restriccion">
+        <p class="restriccion">Solo letras minúsculas y sin acentos</p>
+    </div>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

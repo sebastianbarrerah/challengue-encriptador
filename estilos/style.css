@@ -1,0 +1,205 @@
+/*header*/
+.logo_principal {
+    position: absolute;
+    left: 4rem;
+    top: 1.5rem;
+    color: #0A3871;
+}
+
+.logo_principal:hover {
+
+    translate: 55rem;
+    transition: 6s;
+}
+
+/*body*/
+body {
+    background: #F3F5FC;
+    width: 80%;
+    height: 80%;
+
+}
+
+.texto {
+    top: 6.5rem;
+    left: 11rem;
+    position: relative;
+}
+
+.ingrese_texto {
+    font-size: 2rem;
+    color: #0A3871;
+    background-color: #F3F5FC;
+    border: none;
+}
+
+.ingrese_texto:hover::placeholder {
+    color: #d0a50bd9;
+    ;
+}
+
+/*tabla*/
+.tabla {
+    position: absolute;
+    width: 18rem;
+    height: 35.625rem;
+    left: 62.5rem;
+    top: 2.5rem;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    background: #FFFFFF;
+}
+
+td {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 25rem;
+    justify-content: space-around;
+
+}
+
+.div-cuadrado {
+    font-size: 2rem;
+    color: #0A3871;
+    border: none;
+    text-align: center;
+    position: relative;
+    top: 3rem;
+}
+
+.imagen-muñeco {
+    position: relative;
+    top: 7rem;
+}
+
+.muñeco {
+
+    height: 12rem;
+    width: 100%;
+    top: -3rem;
+    position: relative;
+}
+
+.copiar {
+    height: 50px;
+    width: 40%;
+    border-radius: 24px;
+    color: #0A3871;
+    border-radius: 24px;
+    border-color: #0A3871;
+    position: relative;
+    left: 30%;
+    top: 16rem;
+}
+
+.copiar:hover {
+    background-color: #d0a50bd9;
+    transition: 1s;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+.parrafo {
+    font-size: 2rem;
+    color: #0A3871;
+    background-color: #F3F5FC;
+    border: none;
+    position: relative;
+    text-align: center;
+
+}
+
+/*botones*/
+
+.botones {
+    display: flex;
+    justify-content: center;
+    height: 25.625rem;
+}
+
+.botones_div {
+    display: flex;
+    align-items: end;
+    position: relative;
+    top: 5rem;
+    width: 30rem;
+    justify-content: space-evenly;
+}
+
+.encriptar {
+    height: 67px;
+    width: 40%;
+    background: rgba(10, 56, 113, 1);
+    border-color: #D8DFE8;
+    border-radius: 24px;
+}
+
+.encriptar:hover {
+    transition: 1s;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    background: #d0a50bd9;
+}
+
+.desencriptar {
+    height: 67px;
+    width: 40%;
+    border-radius: 24px;
+    color: #0A3871;
+    border-radius: 24px;
+    border-color: #0A3871;
+}
+
+.desencriptar:hover {
+    transition: 1s;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    background: #d0a50bd9;
+}
+
+#reiniciar {
+    position: relative;
+    top: 34rem;
+    right: 44rem;
+    border-color: #D8DFE8;
+    border-radius: 24px;
+    width: 5rem;
+    height: 1.5rem;
+    background: #d0a50bd9;
+    color: black;
+}
+
+#reiniciar:hover {
+    background: linear-gradient(rgb(175, 161, 37), rgb(254, 255, 254));
+}
+
+.primerMensaje {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.segundoMensaje {
+    text-align: center;
+    font-weight: 300;
+}
+
+.divMensajes {
+    position: relative;
+    top: 2rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    bottom: 3rem;
+    position: relative;
+    justify-content: center;
+    right: 7rem;
+}
+
+.restriccion {
+    margin-left: 19px;
+}
